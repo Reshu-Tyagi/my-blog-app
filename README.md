@@ -1,36 +1,49 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+#  Blogify App
 
-## Getting Started
+A modern and responsive blog application built with **Next.js 15**, **Redux Toolkit**, **Redux-Saga**, **TypeScript**, and **Tailwind CSS**.
 
-First, run the development server:
+## Features
+
+* JWT Authentication
+* Blog Listing & Blog Details
+* Comments Section
+* Fully Responsive Design
+* Redux Toolkit + Redux-Saga
+* Modern UI with Tailwind CSS
+* Protected Dashboard
+* Loading & Error States
+* Local Storage Caching
+
+## Tech Stack
+
+* Next.js 15
+* React 18
+* TypeScript
+* Redux Toolkit
+* Redux-Saga
+* Tailwind CSS
+* Axios
+* Lucide React
+
+## Installation
 
 ```bash
+git clone https://github.com/Reshu-Tyagi/my-blog-app.git
+cd my-blog-app
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Demo Credentials
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+| Username | Password   |
+| -------- | ---------- |
+| emilys   | emilyspass |
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Live Demo
 
-## Learn More
+[https://my-blog-app-reshu-tyagi.vercel.app/](https://my-blog-app-reshu-tyagi.vercel.app/)
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
